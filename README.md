@@ -4,13 +4,16 @@
 An OCR-based AI model, trained on multiple templates from the internet which can parse resumes and can fill out the information like Name, Email Address and Phone Number.
 
 
-# How to Execute
+## How to Execute
 
-Install All the requirements
+1. Install All the requirements
 pip install requirements.txt
 
-Retreive model for spacy
-python3 -m spacy download en_core_web_sm 
+2. Retreive model for spacy
+python3 -m spacy download en_core_web_sm
+
+3. Start the Application
+uvicorn main:app --reload 
 
 ## Technology Used
 
@@ -32,3 +35,6 @@ python3 -m spacy download en_core_web_sm
   <img name = "BitBucket" src = "https://img.shields.io/badge/bitbucket-%230047B3.svg?style=for-the-badge&logo=bitbucket&logoColor=white">
   <img name = "Firebase" src = "https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase">
 </div>
+
+## Dataset Source 
+<a href = "https://www.kaggle.com/datasets/aishikai/resume-dataset"><img src = "https://img.shields.io/badge/Kaggle-035a7d?style=for-the-badge&logo=kaggle&logoColor=white"></a>
