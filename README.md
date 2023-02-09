@@ -6,13 +6,13 @@ An OCR-based AI model, trained on multiple templates from the internet which can
 
 ## How to Execute
 
-1. Install All the requirements
+1. Install All the requirements :
 pip install requirements.txt
 
-2. Retreive model for spacy
+2. Retreive model for spacy :
 python3 -m spacy download en_core_web_sm
 
-3. Start the Application
+3. Start the Application : 
 uvicorn main:app --reload 
 
 ## Technology Used
