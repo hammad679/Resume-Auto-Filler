@@ -1,0 +1,67 @@
+{% extends 'navbar.html' %}
+
+{% block head %}
+
+<link href="static/css/autocomplete.css" rel="stylesheet" />
+
+{% endblock %}
+
+{% block body %}
+
+<!-- L O A D I N G  P A G E -->
+
+<div id="preloader" class="loader-wrapper">
+  <span class="loader">
+      <span class="loader-inner">
+
+      </span>
+  </span>
+</div>
+
+<!-- E N D  L O A D I N G  P A G E--> 
+
+
+{{super()}}
+
+<!-- H E R O -->
+
+<section id="hero">
+    <div class="container">
+      <div class="row">
+        <div class="leftbar col-md-5 content-box hero-content">
+            <img src="../static/images/leftbar.svg" class="img-fluid" alt="classification">
+        </div>
+        <div class="mainform col-lg-6 col-md-6 col-sm-6 col-xs-6">
+          <form id = "resumeForm" method = "POST" action="/auto-complete" enctype="multipart/form-data">
+            <div class="uploadresume">
+              <label for="resume">
+                Select Resume <br/>
+                <i class="fa fa-2x fa-cloud-upload" style="text-align: center;"></i>
+                <input 
+                    name="file" 
+                    id="resume" 
+                    type="file" 
+                    style="display: none;
+                "/>
+                <br/>
+                <span id="resumeName"></span>
+              </label>
+            </div>
+            <button 
+              type = "button" 
+              id = "submitButton" 
+              class="btn btn-primary" 
+              style="margin-left:38%; margin-right: 35%; margin-top: 10px; margin-bottom: 5%;">
+              Parse Resume
+            </button>
+        </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- E N D  H E R O -->
+ 
+{% endblock %}
+
+{% block footer %} {% endblock %}
