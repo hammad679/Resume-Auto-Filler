@@ -15,7 +15,7 @@ python3 -m spacy download en_core_web_sm
 3. Start the Application : 
 uvicorn main:app --reload 
 
-
+## Architectural Flow
 ![image](https://user-images.githubusercontent.com/83724397/217777731-b9f9a23f-c9a3-4b0d-a935-f3bffce6fe7b.png)
 
 ## Technology Used
