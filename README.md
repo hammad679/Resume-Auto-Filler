@@ -31,8 +31,6 @@ uvicorn main:app --reload
   <img name = "Bootstrap" src = "https://img.shields.io/badge/bootstrap%20-%23563D7C.svg?&style=for-the-badge&logo=bootstrap&logoColor=white">
   <br>
   <img name = "Docker" src = "https://img.shields.io/badge/Docker-Docker?style=for-the-badge&logo=docker&color=18191a">
-  <img name = "Postman" src = "https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white">
-  <img name = "BitBucket" src = "https://img.shields.io/badge/bitbucket-%230047B3.svg?style=for-the-badge&logo=bitbucket&logoColor=white">
   <img name = "Firebase" src = "https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase">
 </div>
 
